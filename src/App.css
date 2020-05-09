@@ -1,29 +1,37 @@
-.App {
-  text-align: center;
+
+    #container   {
+            position: relative !important;
+            margin: 0 auto !important;
+            margin-top: 10px !important;
+            width: 800px !important;
+            line-height: 150% !important;
+            border-top: 2px solid lightblue !important;
+            background-color: #ffffff !important;
+            z-index: 1 !important;
+           
+        
+ } 
+
+ .BigCont {
+  padding-bottom: 25px;
+ }
+
+
+
+       body    { 
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        background-image: url("./images/criss-cross.png") !important;
+            text-decoration-color: #333333;
+            margin: 0;
+            padding: 0;
+           
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .hello {
+
+    background-color: orangered;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +43,203 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                grid-gap: 10px;
+                padding: 10px;
+                margin: 25px;
+}           
+        .one {
+                background-image: url('./images/roasted-coffee-beans-from-sack-in-symbol-heart-shape-on-rustic-wooden-background_t20_pxoE0P.comp.jpg');
+                background-size: cover;
+                grid-column: 1 / 2;
+                grid-row: 1 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+               
+}
+        .two { 
+               
+                background-image: url("./images/WeatherDashboardPic.PNG");
+                background-size: cover;
+                grid-column: 2 / 2;
+                grid-row: 1 / 5;
+                height: 114px;
+                width: 200px;
+                object-fit: contain;
+                border: white 1px;
+                border-style: ridge;
+}
+        .three {
+                background-image: url("./images/project3Pic.PNG");
+                background-size: cover;
+                grid-column: 1 / 2;
+                grid-row: 2 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .four {
+                background-image: url("./images/githubPic.PNG");
+                background-size: cover;
+                grid-column: 2 / 2;
+                grid-row: 2 / 5;
+                height: 114px;
+                width: 200px;
+                padding-bottom: 5px;
+                border: white 1px;
+                border-style: ridge;
+                
+}
+        .five {
+                background-image: url("./images/scratch-game.PNG");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 1 / 2;
+                grid-row: 3 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .six {
+                background-image: url("./images/resumePic.PNG");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 2 / 2;
+                grid-row: 3 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .seven {
+                background-image: url("./images/EatdaBurgerPic.PNG");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 1 / 2;
+                grid-row: 4 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .eight {
+                background-image: url("./images/WorkoutTrackerPic.PNG");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 2 / 2;
+                grid-row: 4 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .nine {
+                background-image: url("./images/EmployeeTracker.PNG");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 1 / 2;
+                grid-row: 5 / 5;
+                height: 114px;
+                width: 200px;
+                border: white 1px;
+                border-style: ridge;
+}
+
+        .bioImg {
+          max-width: 120px;
+        }
+
+        .getProfImg {
+          display: inline-block;
+          width: 20%;
+          vertical-align: top;
+        }
+        .getBio {
+          display: inline-block;
+          width: 70%;
+          vertical-align: top;
+          padding: 0px 18px;
+        }
+
+       h4, h5 {
+                background-color: lightblue;
+                opacity: 0.6;
+                top: 200px;
+                color: white;
+                z-index: 100;
+                width: 100%;
+                
+} 
+
+
+h4 {    position: relative;
+    height: 21px;
+    display: table;
+       top: -22px;
+
+  
+  }
+
+  .ghAlign {
+    position: fixed;
+    bottom: 0px;
+  }
+        h4 a {
+                font-weight: 600;
+                color: black;
+        }
+
+        h4 div {
+                font-weight: 900;
+                color: black;
+        }
+        .lnk {
+                background-color: lightblue;
+                top: 200px;
+                text-align: center;
+                color: white;
+                z-index: 100;
+                width: 100%;
+                height: 0;
+                align-content: end;
+                
+                
+}
+
+
+.footer {
+        height: 20px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top: 4px solid #4aaaa5;;
+        background-color: #666666;
+        color: white;
+        text-align: center;
+        align-content: center;
+
+}
+ .abtme {
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-family: 'Yeon Sung', cursive;
+        font-size: 24px;
+        padding: 10px;
+        border-bottom: solid grey;
+} 
+
+.bioTime {
+  font-size: 10px;
 }
